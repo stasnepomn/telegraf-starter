@@ -1,0 +1,26 @@
+{
+  "name": "telegraf-starter",
+  "description": "Starter template for Telegram projects",
+  "version": "1.0.0",
+  "main": "build/bot.js",
+  "author": "Stanislav Nepomniashchikh",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^7.6.0",
+    "dotenv": "^8.2.0",
+    "ky": "^0.27.0",
+    "mongoose": "^5.12.3",
+    "telegraf": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/mongoose": "^5.10.4",
+    "@types/node": "^14.14.37",
+    "telegram-typings": "^5.0.0",
+    "typescript": "^4.2.4"
+  }
+}
